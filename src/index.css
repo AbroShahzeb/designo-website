@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  @font-face {
+    font-family: "Jost";
+    src: url("./assets/fonts/jost/Jost-VariableFont_wght.ttf");
+    font-style: normal;
+    font-weight: 100 900;
+  }
+
+  @font-face {
+    font-family: "Jost";
+    src: url("./assets/fonts/jost/Jost-Italic-VariableFont_wght.ttf");
+    font-style: italic;
+    font-weight: 100 900;
+  }
+}
