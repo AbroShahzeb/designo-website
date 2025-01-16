@@ -1,27 +1,24 @@
 import { Button } from "../../../generalComponents";
 import bgThreeCirclePattern from "../../../assets/shared/desktop/bg-pattern-three-circles.svg";
+import { BackgroundPattern } from "./components";
 
 export const CTA = () => {
   return (
-    <div className="px-6 bg-cta-gradient-mobile">
-      <div className="bg-primary-peach px-6 py-16 rounded-[15px] min-h-[379px] relative overflow-hidden">
-        <div className="absolute z-10 -right-6 top-1/2 -translate-y-1/2 grid grid-cols-[292px_292px] grid-rows-[292px_292px] ">
-          <div className="size-[292px] bg-circle-pattern rounded-full shrink-0 opacity-[0.3089] col-start-2 col-end-3 row-start-1 row-end-2"></div>
-          <div className="size-[292px] bg-circle-pattern rounded-full shrink-0 opacity-[0.3089] col-start-2 col-end-3 row-start-2 row-end-3"></div>
-          <div className="size-[292px] bg-circle-pattern rounded-full shrink-0 opacity-[0.3089] col-start-1 col-end-2 row-start-2 row-end-3 -rotate-90"></div>
-        </div>
+    <div className="px-6 bg-cta-gradient-mobile md:bg-cta-gradient-tablet xl:bg-cta-gradient-desktop md:px-[39px]">
+      <div className="bg-primary-peach px-6 py-16 rounded-[15px] min-h-[379px] md:min-h-[350px] xl:min-h-[292px] relative overflow-hidden md:py-[57px] md:pl-[58px] md:pr-[59px] xl:px-[95px] xl:py-[72px] flex justify-center xl:justify-normal xl:max-w-[1111px] xl:mx-auto">
+        <BackgroundPattern />
 
-        <div className="relative z-20">
-          <div className="text-primary-white text-center ">
-            <h2 className="text-[32px] leading-[41px] font-medium">
+        <div className="relative z-20 flex flex-col items-center xl:flex-row xl:justify-between xl:self-stretch xl:w-full">
+          <div className="text-primary-white text-center flex flex-col items-center xl:text-left xl:items-start">
+            <h2 className="text-[32px] leading-[41px] md:text-[40px] md:leading-[40px] md:h-[98px] md:max-w-[335px] font-medium xl:h-[96px]">
               Let’s talk about your project
             </h2>
-            <p className="mt-1.5 text-[15px] leading-[25px] ">
+            <p className="mt-1.5 text-[15px] leading-[25px] xl:text-base md:w-[65ch] md:mt-0 xl:w-[450px]">
               Ready to take it to the next level? Contact us today and find out
               how our expertise can help your business grow.
             </p>
           </div>
-          <div className="mt-8 flex justify-center">
+          <div className="mt-8 flex justify-center xl:mt-0">
             <Button label="Get in touch" variant="secondary" />
           </div>
         </div>

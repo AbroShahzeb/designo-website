@@ -4,7 +4,7 @@ import iconHamburger from "../../../assets/shared/mobile/icon-hamburger.svg";
 
 export const Navbar = () => {
   return (
-    <nav className="bg-primary-white px-6 pb-[34px] pt-[35px] flex items-center gap-2 justify-between md:px-10 md:py-16">
+    <nav className="bg-primary-white px-6 pb-[34px] pt-[35px] flex items-center gap-2 justify-between md:px-10 md:py-16 xl:max-w-[1111px] xl:mx-auto xl:px-0">
       {/* Logo */}
       <div>
         <img src={logoDark} alt="Designo Logo" className="h-[27px]" />

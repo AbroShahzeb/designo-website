@@ -18,6 +18,10 @@ export default {
       backgroundImage: {
         "cta-gradient-mobile":
           "linear-gradient(to top, #1D1C1E 189px, transparent 189px)",
+        "cta-gradient-tablet":
+          "linear-gradient(to top, #1D1C1E 89px, transparent 89px)",
+        "cta-gradient-desktop":
+          "linear-gradient(to top, #1D1C1E 56px, transparent 56px)",
         "circle-pattern":
           "linear-gradient(90deg, rgba(93, 2, 2, 0.00) 0%, rgba(93, 2, 2, 0.50) 100%)",
       },
