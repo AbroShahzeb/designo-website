@@ -1,3 +1,4 @@
 import { Company } from "./company";
+import { Home } from "./home";
 
-export { Company };
+export { Company, Home };

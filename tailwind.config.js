@@ -24,6 +24,14 @@ export default {
           "linear-gradient(to top, #1D1C1E 56px, transparent 56px)",
         "circle-pattern":
           "linear-gradient(90deg, rgba(93, 2, 2, 0.00) 0%, rgba(93, 2, 2, 0.50) 100%)",
+        conic:
+          "linear-gradient(to right, rgba(0,0,0,0) 0%, rgba(255,255,255,1) 100%)",
+      },
+      boxShadow: {
+        "phone-mockup-mobile": "50px -50px 100px 20px rgba(183, 91, 71, 0.9)",
+      },
+      dropShadow: {
+        "phone-mockup-mobile": "50px -50px 100px 20px rgba(183, 91, 71, 0.9)",
       },
     },
     fontFamily: {

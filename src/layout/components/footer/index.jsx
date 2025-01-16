@@ -2,8 +2,8 @@ import { Contact, Links, Location, Logo, Socials } from "./components";
 
 export const Footer = () => {
   return (
-    <footer className="bg-primary-black px-6 py-16 flex flex-col items-center gap-10 md:px-[39px] md:py-20 md:gap-0 xl:py-[72px] xl:pl-[165px] xl:pr-[164px]">
-      <div className="xl:max-w-[1111px] w-full">
+    <footer className="bg-primary-black px-6 py-16  md:px-[39px] md:py-20 md:gap-0 xl:py-[72px] xl:pl-[165px] xl:pr-[164px]">
+      <div className="xl:max-w-[1111px] w-full flex flex-col items-center gap-10">
         {/* Upper Section/Left Section */}
         <div className="flex flex-col items-center text-center self-stretch md:flex-row md:justify-between">
           <Logo />
