@@ -18,7 +18,7 @@ export const MobileNav = ({ isOpen, setIsOpen }) => {
       {isOpen && (
         <>
           <div
-            className="fixed inset-0 bg-primary-black/50 z-40 top-[96px]"
+            className="fixed inset-0 min-h-svh bg-primary-black/50 z-40 top-[96px]"
             onClick={() => setIsOpen(false)}
           ></div>
           <motion.div
