@@ -2,9 +2,16 @@ import imageRealDealMobile from "../../../../assets/about/mobile/image-real-deal
 import imageRealDealTablet from "../../../../assets/about/tablet/image-real-deal.jpg";
 import imageRealDealDesktop from "../../../../assets/about/desktop/image-real-deal.jpg";
 
+import bubblePattern from "../../../../assets/home/desktop/bubble-pattern.svg";
+
 export const RealDealSection = () => {
   return (
-    <section>
+    <section className="relative ">
+      {/* Bubble Background Pattern */}
+      <div className="absolute -right-[561px] -top-[342px]">
+        <img src={bubblePattern} alt="Bubble Background Pattern" />
+      </div>
+
       <div className="md:px-10 lg:flex lg:flex-row-reverse mb-[120px] lg:mb-[160px] relative xl:max-w-[1111px] xl:mx-auto xl:px-0">
         <div className="w-full h-[320px]  lg:w-[476px] lg:h-[640px] md:rounded-t-[15px] lg:rounded-t-none lg:rounded-r-[15px] md:overflow-hidden flex-shrink-0 relative z-10">
           <img

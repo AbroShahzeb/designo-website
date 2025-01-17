@@ -1,3 +1,11 @@
+import { LocationsList } from "./components";
+import { CTA } from "../../layout/components";
+
 export const Locations = () => {
-  return <h2>Locations</h2>;
+  return (
+    <section>
+      <LocationsList />
+      <CTA />
+    </section>
+  );
 };
