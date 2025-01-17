@@ -1,11 +1,18 @@
 import imageHero from "../../../../assets/home/mobile/hero-mobile.png";
 import imageHeroTablet from "../../../../assets/home/tablet/image-hero.png";
 import imageHeroDesktop from "../../../../assets/home/desktop/image-hero.png";
+
+import bubblePattern from "../../../../assets/home/desktop/bubble-pattern.svg";
+
 import { Button } from "../../../../generalComponents";
 
 export const Hero = () => {
   return (
-    <header className="md:px-10 xl:h-[640px] mb-[120px] lg:mb-[160px]">
+    <header className="md:px-10 xl:h-[640px] mb-[120px] lg:mb-[160px] lg:relative">
+      {/* Bubble Patter For Large Screens */}
+      <div className="absolute rotate-180 left-0 -bottom-[274px] hidden lg:block">
+        <img src={bubblePattern} alt="Chat Bubble Pattern" />
+      </div>
       <div className="flex flex-col lg:flex-row lg:items-center lg:justify-between xl:max-w-[1111px] xl:mx-auto lg:gap-4 xl:gap-0 lg:h-[600px] xl:h-[640px] lg:pl-[95px] lg:pr-[96px] items-center text-center bg-primary-peach relative overflow-hidden md:rounded-[15px]">
         {/* Background Circle Pattern */}
         <div className="size-[640px] rounded-full bg-circle-pattern absolute top-1/2 -translate-y-1/2 left-0 opacity-[0.3089] z-10 -rotate-180 md:-right-[121.55px] md:left-auto lg:right-0 lg:-rotate-90"></div>

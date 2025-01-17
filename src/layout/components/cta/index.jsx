@@ -1,10 +1,9 @@
 import { Button } from "../../../generalComponents";
-import bgThreeCirclePattern from "../../../assets/shared/desktop/bg-pattern-three-circles.svg";
 import { BackgroundPattern } from "./components";
 
 export const CTA = () => {
   return (
-    <div className="px-6 bg-cta-gradient-mobile md:bg-cta-gradient-tablet xl:bg-cta-gradient-desktop md:px-[39px]">
+    <div className="px-6 bg-cta-gradient-mobile md:bg-cta-gradient-tablet xl:bg-cta-gradient-desktop md:px-[39px] relative z-20">
       <div className="bg-primary-peach px-6 py-16 rounded-[15px] min-h-[379px] md:min-h-[350px] xl:min-h-[292px] relative overflow-hidden md:py-[57px] md:pl-[58px] md:pr-[59px] xl:px-[95px] xl:py-[72px] flex justify-center xl:justify-normal xl:max-w-[1111px] xl:mx-auto">
         <BackgroundPattern />
 
