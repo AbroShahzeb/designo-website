@@ -36,7 +36,7 @@ export const MobileNav = ({ isOpen, setIsOpen }) => {
                 Our Company
               </NavLink>
               <NavLink
-                to="/location"
+                to="/locations"
                 className={({ isActive }) => isActive && "underline"}
               >
                 Locations

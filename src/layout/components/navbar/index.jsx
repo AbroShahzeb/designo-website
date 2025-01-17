@@ -1,4 +1,4 @@
-import { NavLink } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 import logoDark from "../../../assets/shared/desktop/logo-dark.png";
 import iconHamburger from "../../../assets/shared/mobile/icon-hamburger.svg";
 import iconClose from "../../../assets/shared/mobile/icon-close.svg";
@@ -10,9 +10,9 @@ export const Navbar = () => {
   return (
     <nav className="bg-primary-white px-6 pb-[34px] pt-[35px] flex items-center gap-2 justify-between md:px-10 md:py-16 xl:max-w-[1111px] xl:mx-auto xl:px-0 sticky top-0 z-30 ">
       {/* Logo */}
-      <div>
+      <Link to="/">
         <img src={logoDark} alt="Designo Logo" className="h-[27px]" />
-      </div>
+      </Link>
 
       <ul className="hidden md:flex items-center gap-[42px] uppercase text-[14px] leading-[14px] text-secondary-dark-grey tracking-[2px]">
         <li className="hover:underline transition-all">
