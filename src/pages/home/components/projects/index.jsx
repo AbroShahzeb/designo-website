@@ -27,7 +27,7 @@ const projectData = [
 
 export const Projects = () => {
   return (
-    <section className="px-6 mb-[120px] md:px-10 xl:max-w-[1111px] xl:mx-auto xl:p-0">
+    <section className="px-6 mb-[120px] lg:mb-[160px] md:px-10 xl:max-w-[1111px] xl:mx-auto xl:p-0">
       <div className="grid grid-cols-1 grid-rows-[250px_250px_250px] lg:grid-cols-[1fr_1fr] lg:grid-rows-[308px_308px] gap-6 lg:gap-x-[30px]">
         {projectData.map((card) => (
           <ProjectCard card={card} />
