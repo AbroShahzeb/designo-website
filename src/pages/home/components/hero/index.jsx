@@ -14,7 +14,7 @@ export const Hero = () => {
           <h1 className="text-[32px] leading-[36px] md:text-[48px] md:leading-[48px] font-medium md:max-w-[537px] md:mx-auto md:h-[165px]">
             Award-winning custom designs and digital branding solutions
           </h1>
-          <p className="text-[15px] leading-[25px] mt-[14px] md:max-w-[445px] md:mx-auto md:text-base md:mt-2 lg:mx-0 lg:mt-[11px]">
+          <p className="text-[15px] leading-[25px] mt-[14px] md:max-w-[445px] md:mx-auto md:text-base md:mt-2 lg:mx-0 lg:mt-[11px] lg:max-w-[420px]">
             With over 10 years in the industry, we are experienced in creating
             fully responsive websites, app design, and engaging brand
             experiences. Find out more about our services.
