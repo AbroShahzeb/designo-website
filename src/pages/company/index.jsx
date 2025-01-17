@@ -1,3 +1,20 @@
+import {
+  Hero,
+  Locations,
+  RealDealSection,
+  WorldClassTalentSection,
+} from "./components";
+
+import { CTA } from "../../layout/components";
+
 export const Company = () => {
-  return <h2>Company</h2>;
+  return (
+    <div>
+      <Hero />
+      <WorldClassTalentSection />
+      <Locations />
+      <RealDealSection />
+      <CTA />
+    </div>
+  );
 };
