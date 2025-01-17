@@ -1,10 +1,14 @@
 import { NavLink } from "react-router-dom";
 import logoDark from "../../../assets/shared/desktop/logo-dark.png";
 import iconHamburger from "../../../assets/shared/mobile/icon-hamburger.svg";
+import iconClose from "../../../assets/shared/mobile/icon-close.svg";
+import { MobileNav } from "./components";
+import { useState } from "react";
 
 export const Navbar = () => {
+  const [isMobileNavOpen, setIsMobileNavOpen] = useState(false);
   return (
-    <nav className="bg-primary-white px-6 pb-[34px] pt-[35px] flex items-center gap-2 justify-between md:px-10 md:py-16 xl:max-w-[1111px] xl:mx-auto xl:px-0">
+    <nav className="bg-primary-white px-6 pb-[34px] pt-[35px] flex items-center gap-2 justify-between md:px-10 md:py-16 xl:max-w-[1111px] xl:mx-auto xl:px-0 sticky top-0 z-30 ">
       {/* Logo */}
       <div>
         <img src={logoDark} alt="Designo Logo" className="h-[27px]" />
@@ -38,9 +42,17 @@ export const Navbar = () => {
       </ul>
 
       {/* Hamburger Menu */}
-      <div className="md:hidden">
-        <img src={iconHamburger} alt="Hamburger Icon" />
-      </div>
+      <button
+        className="md:hidden"
+        onClick={() => setIsMobileNavOpen((prev) => !prev)}
+      >
+        <img
+          src={isMobileNavOpen ? iconClose : iconHamburger}
+          alt={isMobileNavOpen ? "Close Icon" : "Hamburger Icon"}
+        />
+      </button>
+
+      <MobileNav isOpen={isMobileNavOpen} setIsOpen={setIsMobileNavOpen} />
     </nav>
   );
 };
