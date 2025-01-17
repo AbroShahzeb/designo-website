@@ -34,18 +34,21 @@ export const Hero = () => {
           <img
             src={imageHero}
             alt="Phone Mockup Image"
-            className="w-[284px] md:hidden"
+            className="w-[284px] md:hidden relative z-20"
           />
           <img
             src={imageHeroTablet}
             alt="Phone Mockup Image"
-            className="w-[284px] hidden md:block lg:hidden"
+            className="w-[284px] hidden md:block lg:hidden relative z-20"
           />
           <img
             src={imageHeroDesktop}
             alt="Phone Mockup Image"
-            className="w-[284px] hidden lg:block"
+            className="w-[284px] hidden lg:block relative z-20"
           />
+
+          {/* Mockup Shadow */}
+          <div className="absolute inset-0 translate-x-4 -translate-y-2 scale-[1.06] bg-[rgb(169,73,60)] blur-xl z-10"></div>
         </div>
       </div>
     </header>
