@@ -21,7 +21,7 @@ export default {
         "cta-gradient-tablet":
           "linear-gradient(to top, #1D1C1E 89px, transparent 89px)",
         "cta-gradient-desktop":
-          "linear-gradient(to top, #1D1C1E 56px, transparent 56px)",
+          "linear-gradient(to top, #1D1C1E 72px, transparent 72px)",
         "circle-pattern":
           "linear-gradient(90deg, rgba(93, 2, 2, 0.00) 0%, rgba(93, 2, 2, 0.50) 100%)",
         "mobile-web-design":
