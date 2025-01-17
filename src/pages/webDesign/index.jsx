@@ -1,3 +1,13 @@
+import { CTA } from "../../layout/components";
+import { Header, OtherCategories, ProjectList } from "./components";
+
 export const WebDesign = () => {
-  return <h2>Web design</h2>;
+  return (
+    <div>
+      <Header />
+      <ProjectList />
+      <OtherCategories />
+      <CTA />
+    </div>
+  );
 };

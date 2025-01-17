@@ -1,3 +1,13 @@
+import { CTA } from "../../layout/components";
+import { Header, OtherCategories, ProjectList } from "./components";
+
 export const AppDesign = () => {
-  return <h2>App design</h2>;
+  return (
+    <div>
+      <Header />
+      <ProjectList />
+      <OtherCategories />
+      <CTA />
+    </div>
+  );
 };
