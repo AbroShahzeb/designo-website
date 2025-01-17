@@ -32,18 +32,21 @@ export const MobileNav = ({ isOpen, setIsOpen }) => {
               <NavLink
                 to="/company"
                 className={({ isActive }) => isActive && "underline"}
+                onClick={() => setIsOpen(false)}
               >
                 Our Company
               </NavLink>
               <NavLink
                 to="/locations"
                 className={({ isActive }) => isActive && "underline"}
+                onClick={() => setIsOpen(false)}
               >
                 Locations
               </NavLink>
               <NavLink
                 to="/contact"
                 className={({ isActive }) => isActive && "underline"}
+                onClick={() => setIsOpen(false)}
               >
                 Contact
               </NavLink>
