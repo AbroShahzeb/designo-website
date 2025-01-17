@@ -2,6 +2,157 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer utilities {
+  .mobile-web-design {
+    background-image: linear-gradient(
+        to right,
+        rgba(0, 0, 0, 0.4969),
+        rgba(0, 0, 0, 0.4969)
+      ),
+      url("./assets/home/mobile/image-web-design.jpg");
+  }
+  .tablet-web-design {
+    background-image: linear-gradient(
+        to right,
+        rgba(0, 0, 0, 0.4969),
+        rgba(0, 0, 0, 0.4969)
+      ),
+      url("./assets/home/tablet/image-web-design.jpg");
+  }
+  .desktop-web-design {
+    background-image: linear-gradient(
+        to right,
+        rgba(0, 0, 0, 0.4969),
+        rgba(0, 0, 0, 0.4969)
+      ),
+      url("./assets/home/desktop/image-web-design-large.jpg");
+  }
+
+  .mobile-web-design:hover {
+    background-image: linear-gradient(
+        to right,
+        rgba(231, 129, 107, 0.8006),
+        rgba(231, 129, 107, 0.8006)
+      ),
+      url("./assets/home/mobile/image-web-design.jpg");
+  }
+  .tablet-web-design:hover {
+    background-image: linear-gradient(
+        to right,
+        rgba(231, 129, 107, 0.8006),
+        rgba(231, 129, 107, 0.8006)
+      ),
+      url("./assets/home/tablet/image-web-design.jpg");
+  }
+  .desktop-web-design:hover {
+    background-image: linear-gradient(
+        to right,
+        rgba(231, 129, 107, 0.8006),
+        rgba(231, 129, 107, 0.8006)
+      ),
+      url("./assets/home/desktop/image-web-design-large.jpg");
+  }
+
+  .mobile-app-design {
+    background-image: linear-gradient(
+        to right,
+        rgba(0, 0, 0, 0.4969),
+        rgba(0, 0, 0, 0.4969)
+      ),
+      url("./assets/home/mobile/image-app-design.jpg");
+  }
+  .tablet-app-design {
+    background-image: linear-gradient(
+        to right,
+        rgba(0, 0, 0, 0.4969),
+        rgba(0, 0, 0, 0.4969)
+      ),
+      url("./assets/home/tablet/image-app-design.jpg");
+  }
+  .desktop-app-design {
+    background-image: linear-gradient(
+        to right,
+        rgba(0, 0, 0, 0.4969),
+        rgba(0, 0, 0, 0.4969)
+      ),
+      url("./assets/home/desktop/image-app-design.jpg");
+  }
+
+  .mobile-app-design:hover {
+    background-image: linear-gradient(
+        to right,
+        rgba(231, 129, 107, 0.8006),
+        rgba(231, 129, 107, 0.8006)
+      ),
+      url("./assets/home/mobile/image-app-design.jpg");
+  }
+  .tablet-app-design:hover {
+    background-image: linear-gradient(
+        to right,
+        rgba(231, 129, 107, 0.8006),
+        rgba(231, 129, 107, 0.8006)
+      ),
+      url("./assets/home/tablet/image-app-design.jpg");
+  }
+  .desktop-app-design:hover {
+    background-image: linear-gradient(
+        to right,
+        rgba(231, 129, 107, 0.8006),
+        rgba(231, 129, 107, 0.8006)
+      ),
+      url("./assets/home/desktop/image-app-design.jpg");
+  }
+  .mobile-graphic-design {
+    background-image: linear-gradient(
+        to right,
+        rgba(0, 0, 0, 0.4969),
+        rgba(0, 0, 0, 0.4969)
+      ),
+      url("./assets/home/mobile/image-graphic-design.jpg");
+  }
+  .tablet-graphic-design {
+    background-image: linear-gradient(
+        to right,
+        rgba(0, 0, 0, 0.4969),
+        rgba(0, 0, 0, 0.4969)
+      ),
+      url("./assets/home/tablet/image-graphic-design.jpg");
+  }
+  .desktop-graphic-design {
+    background-image: linear-gradient(
+        to right,
+        rgba(0, 0, 0, 0.4969),
+        rgba(0, 0, 0, 0.4969)
+      ),
+      url("./assets/home/desktop/image-graphic-design.jpg");
+  }
+
+  .mobile-graphic-design:hover {
+    background-image: linear-gradient(
+        to right,
+        rgba(231, 129, 107, 0.8006),
+        rgba(231, 129, 107, 0.8006)
+      ),
+      url("./assets/home/mobile/image-graphic-design.jpg");
+  }
+  .tablet-graphic-design:hover {
+    background-image: linear-gradient(
+        to right,
+        rgba(231, 129, 107, 0.8006),
+        rgba(231, 129, 107, 0.8006)
+      ),
+      url("./assets/home/tablet/image-graphic-design.jpg");
+  }
+  .desktop-graphic-design:hover {
+    background-image: linear-gradient(
+        to right,
+        rgba(231, 129, 107, 0.8006),
+        rgba(231, 129, 107, 0.8006)
+      ),
+      url("./assets/home/desktop/image-graphic-design.jpg");
+  }
+}
+
 @layer base {
   @font-face {
     font-family: "Jost";
