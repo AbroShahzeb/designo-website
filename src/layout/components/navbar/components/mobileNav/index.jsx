@@ -25,7 +25,6 @@ export const MobileNav = ({ isOpen, setIsOpen }) => {
             initial="hidden"
             animate={isOpen ? "shown" : "hidden"}
             variants={variants}
-            exit="hidden"
             className="bg-primary-black fixed top-[96px] left-0 right-0 z-50 px-6 py-12 overflow-hidden"
           >
             <ul className="flex flex-col gap-8 items-start uppercase text-primary-white text-[24px] leading-[25px] tracking-[2px] font-normal">

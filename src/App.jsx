@@ -9,10 +9,12 @@ import {
   Locations,
   WebDesign,
 } from "./pages";
+import { ScrollToTop } from "./generalComponents";
 
 function App() {
   return (
     <BrowserRouter>
+      <ScrollToTop />
       <Routes>
         <Route path="/" element={<Layout />}>
           <Route path="" element={<Home />} />

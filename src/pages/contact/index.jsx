@@ -1,3 +1,11 @@
+import { ContactForm } from "./components";
+import { Locations } from "../company/components";
+
 export const Contact = () => {
-  return <h2>Contact</h2>;
+  return (
+    <div>
+      <ContactForm />
+      <Locations />
+    </div>
+  );
 };

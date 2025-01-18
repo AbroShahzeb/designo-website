@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import iconError from "../../assets/contact/desktop/icon-error.svg";
 
-export const CustomInput = ({
+export const CustomTextArea = ({
   placeholder = "Text Field",
   value = "",
 
@@ -24,7 +24,7 @@ export const CustomInput = ({
     <>
       {label && <p className="text-dark mb-1">{label}</p>}
       <div
-        className={`flex  items-center h-[38px] border-primary-white bg-transparent pb-3 px-4 w-full ${className}  ${
+        className={`flex  items-center border-primary-white bg-transparent pb-3 px-4 w-full ${className}  ${
           isActive ? "border-b-4" : "border-b"
         }`}
       >
@@ -32,15 +32,14 @@ export const CustomInput = ({
         {icon && <span className={`mr-3  flex-shrink-0`}>{icon}</span>}
 
         {/* Input Field */}
-        <input
+        <textarea
           type="text"
-          {...register(name, validationRules)}
           placeholder={placeholder}
+          {...register(name, validationRules)}
           onFocus={handleFocus}
           onBlur={handleBlur}
-          name={name}
-          className={`w-full bg-transparent focus:outline-none text-body-m placeholder:text-dark/50  placeholder:text-primary-white/50 text-primary-white text-[15px] font-medium leading-[26px]`}
-        />
+          className={`w-full bg-transparent focus:outline-none text-body-m placeholder:text-dark/50  placeholder:text-primary-white/50 text-primary-white text-[15px] font-medium leading-[26px] h-[102px]`}
+        ></textarea>
 
         {/* Error Message */}
         {error && (
