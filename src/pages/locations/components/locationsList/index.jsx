@@ -60,7 +60,7 @@ export const LocationsList = () => {
   return (
     <div className="flex flex-col gap-10 mb-[120px] lg:mb-[160px] md:mx-10 md:gap-[120px] lg:gap-8 xl:max-w-[1111px] xl:mx-auto">
       {locationsData.map((location) => (
-        <LocationCard location={location} />
+        <LocationCard location={location} key={location.id} />
       ))}
     </div>
   );

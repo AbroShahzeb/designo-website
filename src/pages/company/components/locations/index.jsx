@@ -17,7 +17,7 @@ const locationData = [
     to: "/locations",
   },
   {
-    id: 0,
+    id: 2,
     illustration: illustrationUK,
     title: "United Kingdom",
     to: "/locations",

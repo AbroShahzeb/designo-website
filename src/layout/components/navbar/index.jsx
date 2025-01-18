@@ -11,7 +11,7 @@ export const Navbar = () => {
     <nav className="bg-primary-white w-full sticky top-0 z-30 ">
       <div className="bg-primary-white px-6 pb-[34px] pt-[35px] flex items-center gap-2 justify-between md:px-10 md:py-16 xl:max-w-[1111px] xl:mx-auto xl:px-0 ">
         {/* Logo */}
-        <Link to="/">
+        <Link to="/" className="flex-shrink-0">
           <img src={logoDark} alt="Designo Logo" className="h-[27px]" />
         </Link>
 
@@ -19,7 +19,7 @@ export const Navbar = () => {
           <li className="hover:underline transition-all">
             <NavLink
               to="/company"
-              className={({ isActive }) => isActive && "underline"}
+              className={({ isActive }) => (isActive ? "underline" : "")}
             >
               Our company
             </NavLink>
@@ -27,7 +27,7 @@ export const Navbar = () => {
           <li className="hover:underline transition-all">
             <NavLink
               to="/locations"
-              className={({ isActive }) => isActive && "underline"}
+              className={({ isActive }) => (isActive ? "underline" : "")}
             >
               Locations
             </NavLink>
@@ -35,7 +35,7 @@ export const Navbar = () => {
           <li className="hover:underline transition-all">
             <NavLink
               to="/contact"
-              className={({ isActive }) => isActive && "underline"}
+              className={({ isActive }) => (isActive ? "underline" : "")}
             >
               Contact
             </NavLink>
