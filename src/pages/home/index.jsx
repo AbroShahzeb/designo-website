@@ -3,11 +3,11 @@ import { Features, Hero, Projects } from "./components";
 
 export const Home = () => {
   return (
-    <main>
+    <div>
       <Hero />
       <Projects />
       <Features />
       <CTA />
-    </main>
+    </div>
   );
 };

@@ -6,6 +6,7 @@ export const Feature = ({ feature }) => {
         <img
           src={feature.illustrationLg}
           className="size-[202px] hidden md:block"
+          alt={`${feature.title} Illustration`}
         />
       </div>
       <div className="flex flex-col gap-8 md:gap-4 lg:gap-8">
