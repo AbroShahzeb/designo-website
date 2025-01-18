@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import { Button } from "../../../generalComponents";
 import { BackgroundPattern } from "./components";
 
@@ -17,9 +18,9 @@ export const CTA = () => {
               how our expertise can help your business grow.
             </p>
           </div>
-          <div className="mt-8 flex justify-center xl:mt-0">
+          <Link className="mt-8 flex justify-center xl:mt-0" to="/contact">
             <Button label="Get in touch" variant="secondary" />
-          </div>
+          </Link>
         </div>
       </div>
     </div>

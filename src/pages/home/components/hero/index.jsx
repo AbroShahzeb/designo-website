@@ -5,6 +5,7 @@ import imageHeroDesktop from "../../../../assets/home/desktop/image-hero.png";
 import bubblePattern from "../../../../assets/home/desktop/bubble-pattern.svg";
 
 import { Button } from "../../../../generalComponents";
+import { Link } from "react-router-dom";
 
 export const Hero = () => {
   return (
@@ -26,9 +27,12 @@ export const Hero = () => {
             fully responsive websites, app design, and engaging brand
             experiences. Find out more about our services.
           </p>
-          <div className="mt-6 flex justify-center md:mt-5 lg:justify-start lg:mt-10">
+          <Link
+            className="mt-6 flex justify-center md:mt-5 lg:justify-start lg:mt-10"
+            to="/company"
+          >
             <Button label="Learn more" variant="secondary" />
-          </div>
+          </Link>
         </div>
         <div className="relative z-20 lg:self-end">
           <img
