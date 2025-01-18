@@ -12,7 +12,9 @@ export const Feature = ({ feature }) => {
         <h3 className="text-[20px] leading-[26px] tracking-[5px] uppercase font-medium">
           {feature.title}
         </h3>
-        <p className="text-base font-normal">{feature.description}</p>
+        <p className="text-base font-normal xl:w-[350px]">
+          {feature.description}
+        </p>
       </div>
     </div>
   );
